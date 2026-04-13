@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "aalz3",
+    "email": "jackshdee@gmail.com",
+    "url": "https://github.com/aalz3"
   },
   "description": "Modern & Minimalist Next.js Portfolio.",
   "keywords": [
@@ -57,12 +57,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/next-portfolio.git"
+    "url": "https://github.com/aalz3/next-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/next-portfolio#readme",
+  "homepage": "https://github.com/aalz3/next-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/next-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/aalz3/next-portfolio/issues",
+    "email": "jackshdee@gmail.com"
   },
   "funding": [
     {

@@ -37,7 +37,7 @@ export const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Сайн байна уу, I&apos;m {links.ownerName}, гэдэг Би дизайнер хийдэг .
+            Сайн байна уу, намайг I&apos;m {links.ownerName},гэдэг. Би график дизайнер болон автоматжуулалтын хөгжүүлэгч.
           </p>
 
           <Link href="#about" className="md:mt-10">

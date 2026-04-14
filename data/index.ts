@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Үйлчлүүлэгчийн хамтын ажиллагаа болон нээлттэй харилцааг чухалчилдаг ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -20,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Цагийн бүсээс үл хамааран уян хатан харилцаж ажиллах боломжтой",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Миний ашигладаг программ",
+    description: "Тасралтгүй суралцаж, чадвараа ахиулахыг эрмэлздэг",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Технологийн хорхойтон бөгөөд хөгжүүлэлт хийх чин хүсэл эрмэлзэлтэй.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -51,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Одоогоор автоматжуулалт AI(chatbot payment) хөгжүүлж байна",
+    description: "Дотоод явц",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -61,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Хамтран төсөл эхлүүлэхийг хүсэж байна уу?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -74,67 +74,67 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "FigPro - Collaborative Design Tool",
-    des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
+    title: "Хамтын ажиллагааны дизайны хэрэгсэл",
+    des: "Бодит хугацааны хамтын ажиллагаа, вектор засварлагч, уян хатан (responsive) UI бүхий дизайны хэрэгсэл.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://clone-figmaa.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/figma-clone",
+    sourceCode: "https://github.com/aalz3/corel-clone",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Yoom - Видео хурлын аппликейшн",
+    des: "Yoom-ийн тусламжтайгаар видео хурлын туршлагаа хялбарчил. Хамтран ажиллагсад болон найз нөхөдтэйгөө саадгүй холбогдоорой.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://clone-yoom.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/zoom-clone",
+    sourceCode: "https://github.com/aalz3/zoom-clone",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Corel draw программ",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://ai-imaginify.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/imaginify",
+    sourceCode: "https://github.com/aalz3/imaginify",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Apple iPhone 3D хөдөлгөөнт вэбсайт",
+    des: "GSAP болон Three.js 3D эффектүүдийг хослуулан Apple iPhone 15 Pro вэбсайтыг дахин бүтээв.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://app-iphone.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/apple-clone",
+    sourceCode: "https://github.com/aalz3/apple-clone",
   },
 ] as const;
 
 export const testimonials = [
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+     quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    name: "Номин",
+    title: "Эко өнгө",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    name: "Номин",
+    title: "Эко өнгө",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    name: "Номин",
+    title: "Эко өнгө",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    name: "Номин",
+    title: "Эко өнгө",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+     quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    name: "Номин",
+    title: "Эко өнгө",
   },
 ] as const;
 

@@ -48,7 +48,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Одоогоор автоматжуулалт AI(chatbot payment) хөгжүүлж байна",
@@ -112,63 +111,28 @@ export const projects = [
 
 export const testimonials = [
   {
-     quote: `${links.ownerName} "манай брэндийн төрх байдлыг маш өвөрмөцөөр тодорхойлж өгсөн. Санаагаа дижитал болон физик хэлбэрт (хэвлэл) маш чанартай буулгадаг нь гайхалтай. Мэргэжлийн түвшинд ажиллахыг хүссэн хэн бүхэнд санал болгож байна.". ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    quote: `${links.ownerName} манай брэндийн төрх байдлыг маш өвөрмөцөөр тодорхойлж өгсөн. Санаагаа дижитал болон физик хэлбэрт (хэвлэл) маш чанартай буулгадаг нь гайхалтай. Мэргэжлийн түвшинд ажиллахыг хүссэн хэн бүхэнд санал болгож байна.`,
     name: "А.Тэмүүлэн",
     title: "Үүсгэн байгуулагч",
   },
   {
-      quote: `${links.ownerName}"Бид өмнө нь маш олон механик ажлыг гараар хийдэг байсан бол Баасансугарын ачаар бүгдийг автоматжуулж чадлаа. n8n болон AI чатбот ашиглан манай борлуулалтын процессыг хөнгөвчилж өгсөнд маш их баярлалаа."
-    name:"Г.Золбоо",
-    title: "Үйл ажиллагааны захирал",
-  },
- {
-  quote: `${links.ownerName} маш нухацтай, зорилготой ажилладаг залуу. Олон үггүй ажилсаг.`,
-  name: "О.Уянга",
-  title: "Төслийн менежер",
-},
-  {
-      quote: `${links.ownerName} манай брэндийн төрх байдлыг маш өвөрмөцөөр тодорхойлж өгсөн. Санаагаа дижитал болон физик хэлбэрт маш чанартай буулгадаг нь гайхалтай."
-    name: "А. Тэмүүлэн",
-    title: "Үүсгэн байгуулагч",
-  },
-  {
-     quote: `${links.ownerName} Бидний механик ажлыг n8n болон AI ашиглан автоматжуулж өгсөнд маш их баярлалаа. Ажлын бүтээмж илт нэмэгдсэн.",
+    quote: `${links.ownerName} "Бид өмнө нь маш олон механик ажлыг гараар хийдэг байсан бол бүгдийг автоматжуулж чадлаа. n8n болон AI чатбот ашиглан манай борлуулалтын процессыг хөнгөвчилж өгсөнд маш их баярлалаа."`,
     name: "Г.Золбоо",
     title: "Үйл ажиллагааны захирал",
+  },
+  {
+    quote: `${links.ownerName} маш нухацтай, зорилготой ажилладаг залуу. Олон үггүй ажилсаг.`,
+    name: "О.Уянга",
+    title: "Төслийн менежер",
   },
 ] as const;
 
 export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  { id: 1, name: "cloudinary", img: "/cloud.svg", nameImg: "/cloudName.svg" },
+  { id: 2, name: "appwrite", img: "/app.svg", nameImg: "/appName.svg" },
+  { id: 3, name: "HOSTINGER", img: "/host.svg", nameImg: "/hostName.svg" },
+  { id: 4, name: "stream", img: "/s.svg", nameImg: "/streamName.svg" },
+  { id: 5, name: "docker.", img: "/dock.svg", nameImg: "/dockerName.svg" },
 ] as const;
 
 export const workExperience = [
@@ -181,16 +145,16 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: Автоматжуулалтын хөгжүүлэгч",
+    title: "Автоматжуулалтын хөгжүүлэгч",
     desc: "n8n болон AI ашиглан бизнесийн процессыг хөнгөвчлөх, ухаалаг чатбот болон автомат системүүдийг хөгжүүлдэг.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "График дизайн & Эх бэлтгэл",
     desc: "Брэндийн лого, хэвлэлийн эх бэлтгэл болон 3D интерьер дизайны төслүүдийг захиалагчийн хүсэлд нийцүүлэн гүйцэтгэдэг.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -203,32 +167,10 @@ export const workExperience = [
 ] as const;
 
 export const socialMedia = [
-  {
-    id: 1,
-    name: "Facebook",
-    img: "/f.svg",
-    link: "https://www.facebook.com/sugara123/",
-  },
-  {
-    id: 2,
-    name: "Instagram",
-    img: "/insta.svg", 
-    link: "https://www.instagram.com/bold_sugaraa/",
-  },
-  {
-    id: 3,
-    name: "Email",
-    img: "/mail.svg", //
-    link: "mailto:jackshdee@gmail.com",
-  },
-  {
-    id: 4,
-    name: "Call",
-    img: "/phone.svg", 
-    link: "tel:+97680788989", 
-  },
-];
-  },
+  { id: 1, name: "Facebook", img: "/f.svg", link: "https://www.facebook.com/sugara123/" },
+  { id: 2, name: "Instagram", img: "/insta.svg", link: "https://www.instagram.com/bold_sugaraa/" },
+  { id: 3, name: "Email", img: "/mail.svg", link: "mailto:jackshdee@gmail.com" },
+  { id: 4, name: "Call", img: "/phone.svg", link: "tel:+97680788989" },
 ] as const;
 
 export const techStack = {

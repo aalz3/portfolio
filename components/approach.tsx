@@ -15,9 +15,9 @@ export const Approach = () => {
 
       <div className="my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
         <Card
-          title="Planning & Strategy"
+          title="Төлөвлөлт ба Судалгаа"
           icon={<MagicButton title="Phase 1" asChild />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          description="Бид таны вэбсайтын зорилго, зорилтот хэрэглэгчид болон үндсэн функцуудыг тодорхойлохын тулд хамтран ажиллах болно. Бид бүтэц, навигаци болон контентын шаардлагуудыг хэлэлцэнэ."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Deployment & Progress Update"
+          title="Хөгжүүлэлт ба Явцын мэдээлэл"
           icon={<MagicButton title="Phase 2" asChild />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          description="Төлөвлөгөөгөө тохирсны дараа би ажлаа эхлүүлж, анхны нооргоос эхлээд эцсийн код хүртэлх алхам бүрийг танд тогтмол мэдээлж ажиллах болно."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,9 +42,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Development & Launch"
+          title="Туршилт ба Нээлт"
           icon={<MagicButton title="Phase 3" asChild />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          description="Код бичиж дууссаны дараа бид бүх зүйлийг нарийн шалгаж, ямар нэгэн алдаагүй эсэхийг нягтална. Үүний дараа таны вэбсайтыг албан ёсоор интернэтэд байршуулах болно."
         >
           <CanvasRevealEffect
             animationSpeed={3}

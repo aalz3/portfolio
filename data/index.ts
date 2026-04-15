@@ -112,29 +112,29 @@ export const projects = [
 
 export const testimonials = [
   {
-     quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
-    name: "Номин",
-    title: "Эко өнгө",
+     quote: `${links.ownerName} "манай брэндийн төрх байдлыг маш өвөрмөцөөр тодорхойлж өгсөн. Санаагаа дижитал болон физик хэлбэрт (хэвлэл) маш чанартай буулгадаг нь гайхалтай. Мэргэжлийн түвшинд ажиллахыг хүссэн хэн бүхэнд санал болгож байна.". ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
+    name: "А.Тэмүүлэн",
+    title: "Үүсгэн байгуулагч",
   },
   {
-      quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
-    name: "Номин",
-    title: "Эко өнгө",
+      quote: `${links.ownerName}"Бид өмнө нь маш олон механик ажлыг гараар хийдэг байсан бол Баасансугарын ачаар бүгдийг автоматжуулж чадлаа. n8n болон AI чатбот ашиглан манай борлуулалтын процессыг хөнгөвчилж өгсөнд маш их баярлалаа."
+    name:"Г.Золбоо",
+    title: "Үйл ажиллагааны захирал",
   },
   {
-    quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
-    name: "Номин",
-    title: "Эко өнгө",
+    quote: `${links.ownerName}"Маш нухацтай, зорилготой ажилладаг залуу. Олон үггүй ч хийж байгаа ажил нь өөрөө чанарыг нь илтгэдэг. Техникийн болон дизайны мэдлэг нь аливаа төслийг амжилттай дуусгахад том түлхэц болдог."
+    name: "О.Уянга",
+    title: "Төслийн менежер",
   },
   {
-      quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
-    name: "Номин",
-    title: "Эко өнгө",
+      quote: `${links.ownerName} манай брэндийн төрх байдлыг маш өвөрмөцөөр тодорхойлж өгсөн. Санаагаа дижитал болон физик хэлбэрт маш чанартай буулгадаг нь гайхалтай."
+    name: "А. Тэмүүлэн",
+    title: "Үүсгэн байгуулагч",
   },
   {
-     quote: `Гоё байна ${links.ownerName} хамтран ажиллахад үнэхээр таатай байлаа. Түүний мэргэжлийн ур чадвар, шуурхай байдал болон гайхалтай үр дүнд хүрэхийн төлөөх тууштай хичээл зүтгэл нь төслийн туршид илт байсан. ${links.ownerName}'Хөгжүүлэлтийн алхам бүрт гаргаж буй түүний урам зориг нь бидний төслийг амжилттай болоход, ${links.ownerName}гол нөлөө үзүүлсэн.`,
-    name: "Номин",
-    title: "Эко өнгө",
+     quote: `${links.ownerName} Бидний механик ажлыг n8n болон AI ашиглан автоматжуулж өгсөнд маш их баярлалаа. Ажлын бүтээмж илт нэмэгдсэн.",
+    name: "Г.Золбоо",
+    title: "Үйл ажиллагааны захирал",
   },
 ] as const;
 
@@ -174,15 +174,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "График дизайнер",
+    desc: "Брэндийн таних тэмдэг, лого болон хэвлэлийн бүх төрлийн эх бэлтгэлийг мэргэжлийн түвшинд гүйцэтгэдэг.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: Автоматжуулалтын хөгжүүлэгч",
+    desc: "n8n болон AI ашиглан бизнесийн процессыг хөнгөвчлөх, ухаалаг чатбот болон автомат системүүдийг хөгжүүлдэг.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -204,23 +204,34 @@ export const workExperience = [
 
 export const socialMedia = [
   {
-    name: "GitHub",
-    img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    id: 1,
+    name: "Facebook",
+    img: "/f.svg",
+    link: "https://www.facebook.com/sugara123/",
   },
   {
-    name: "Twitter",
-    img: "/twit.svg",
-    link: "https://twitter.com/TechnicalShubam",
+    id: 2,
+    name: "Instagram",
+    img: "/insta.svg", 
+    link: "https://www.instagram.com/bold_sugaraa/",
   },
   {
-    name: "LinkedIn",
-    img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    id: 3,
+    name: "Email",
+    img: "/mail.svg", //
+    link: "mailto:jackshdee@gmail.com",
+  },
+  {
+    id: 4,
+    name: "Call",
+    img: "/phone.svg", 
+    link: "tel:+97680788989", 
+  },
+];
   },
 ] as const;
 
 export const techStack = {
-  stack1: ["React.js", "Next.js", "Typescript"],
-  stack2: ["Vue.js", "AWS", "MongoDB"],
+  stack1: ["n8n", "Automation", "AI Agents"],
+  stack2: ["CorelDRAW", "Photoshop", "3D Interior"],
 } as const;

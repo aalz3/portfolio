@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "Yoom - Видео хурлын аппликейшн",
-    des: "видео хурлын туршлагаа хялбарчил. Хамтран ажиллагсад болон найз нөхөдтэйгөө саадгүй холбогдоорой.",
+    des: "Yoom-ийн тусламжтайгаар видео хурлын туршлагаа хялбарчил. Хамтран ажиллагсад болон найз нөхөдтэйгөө саадгүй холбогдоорой.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://clone-yoom.netlify.app",
@@ -100,7 +100,7 @@ export const projects = [
   {
     id: 4,
     title: "Apple iPhone 3D хөдөлгөөнт вэбсайт",
-    des: "GSAP болон Three.js ашиглан Apple iPhone 15 Pro вэбсайтыг дахин бүтээв.",
+    des: "GSAP болон Three.js 3D эффектүүдийг хослуулан Apple iPhone 15 Pro вэбсайтыг дахин бүтээв.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://app-iphone.netlify.app",
@@ -129,7 +129,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Автоматжуулалтын хөгжүүлэгч",
-    desc: "n8n болон AI ашиглан бизнесийн процессыг автоматжуулдаг.",
+    desc: "n8n болон AI ашиглан бизнесийн процессыг хөнгөвчлөх системүүдийг хөгжүүлдэг.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },

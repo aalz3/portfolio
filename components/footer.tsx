@@ -21,8 +21,7 @@ export const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Та өөрийн дижитал <span className="text-purple">your</span> digital
-         төрхөө дараагийн түвшинд гаргахад бэлэн үү?
+          Та өөрийн дижитал <span className="text-purple">төрхөө</span> дараагийн түвшинд гаргахад бэлэн үү?
         </h1>
 
         <p className="my-5 text-center text-white-200 md:mt-10">
@@ -39,24 +38,23 @@ export const Footer = () => {
             title="Холбоо барих"
             icon={<FaLocationArrow />}
             position="right"
-            asChild
           />
         </Link>
       </div>
 
-      <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
+      <div className="relative z-[10] mt-16 flex flex-col items-center justify-between md:flex-row">
         <p className="text-sm font-light md:text-base md:font-normal">
           Copyright &copy; {new Date().getFullYear()}{" "}
           <Link
-            href=https://www.facebook.com/sugara123/"
+            href="https://www.facebook.com/sugara123/"
             target="_blank"
             rel="noreferrer noopener"
             className="text-purple"
           >
-           Copyright © 2026 Баасансугар
+            Баасансугар
           </Link>{" "}
           |{" "}
-          <Link href={links.sourceCode} className="underline">
+          <Link href={links.sourceCode} target="_blank" className="underline">
             Source Code
           </Link>
         </p>
@@ -64,7 +62,7 @@ export const Footer = () => {
         <div className="flex items-center gap-6 md:gap-3">
           {socialMedia.map((profile) => (
             <Link
-              key={profile.name}
+              key={profile.id}
               href={profile.link}
               target="_blank"
               rel="noreferrer noopener"

@@ -3,7 +3,6 @@ import { links } from "@/config";
 export const navItems = [
   { name: "Тухай", link: "#about" },
   { name: "Бүтээлүүд", link: "#projects" },
-  { name: "Сэтгэгдэл", link: "#testimonials" },
   { name: "Холбоо барих", link: "#contact" },
 ] as const;
 
@@ -83,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "Yoom - Видео хурлын аппликейшн",
-    des: "Yoom-ийн тусламжтайгаар видео хурлын туршлагаа хялбарчил. Хамтран ажиллагсад болон найз нөхөдтэйгөө саадгүй холбогдоорой.",
+    des: "видео хурлын туршлагаа хялбарчил. Хамтран ажиллагсад болон найз нөхөдтэйгөө саадгүй холбогдоорой.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://clone-yoom.netlify.app",
@@ -92,7 +91,7 @@ export const projects = [
   {
     id: 3,
     title: "Corel draw программ",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "AI-д суурилсан, төлбөрийн системтэй программ.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://ai-imaginify.netlify.app",
@@ -101,7 +100,7 @@ export const projects = [
   {
     id: 4,
     title: "Apple iPhone 3D хөдөлгөөнт вэбсайт",
-    des: "GSAP болон Three.js 3D эффектүүдийг хослуулан Apple iPhone 15 Pro вэбсайтыг дахин бүтээв.",
+    des: "GSAP болон Three.js ашиглан Apple iPhone 15 Pro вэбсайтыг дахин бүтээв.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://app-iphone.netlify.app",
@@ -109,23 +108,7 @@ export const projects = [
   },
 ] as const;
 
-export const testimonials = [
-  {
-    quote: `${links.ownerName} манай брэндийн төрх байдлыг маш өвөрмөцөөр тодорхойлж өгсөн. Санаагаа дижитал болон физик хэлбэрт (хэвлэл) маш чанартай буулгадаг нь гайхалтай. Мэргэжлийн түвшинд ажиллахыг хүссэн хэн бүхэнд санал болгож байна.`,
-    name: "А.Тэмүүлэн",
-    title: "Үүсгэн байгуулагч",
-  },
-  {
-    quote: `${links.ownerName} Бид өмнө нь маш олон механик ажлыг гараар хийдэг байсан бол Баасансугарын ачаар бүгдийг автоматжуулж чадлаа. n8n болон AI чатбот ашиглан манай борлуулалтын процессыг хөнгөвчилж өгсөнд маш их баярлалаа.`,
-    name: "Г.Золбоо",
-    title: "Үйл ажиллагааны захирал",
-  },
-  {
-    quote: `${links.ownerName} маш нухацтай, зорилготой ажилладаг залуу. Олон үггүй ажилсаг.`,
-    name: "О.Уянга",
-    title: "Төслийн менежер",
-  },
-] as const;
+export const testimonials = [] as const;
 
 export const companies = [
   { id: 1, name: "cloudinary", img: "/cloud.svg", nameImg: "/cloudName.svg" },
@@ -146,23 +129,9 @@ export const workExperience = [
   {
     id: 2,
     title: "Автоматжуулалтын хөгжүүлэгч",
-    desc: "n8n болон AI ашиглан бизнесийн процессыг хөнгөвчлөх, ухаалаг чатбот болон автомат системүүдийг хөгжүүлдэг.",
+    desc: "n8n болон AI ашиглан бизнесийн процессыг автоматжуулдаг.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "График дизайн & Эх бэлтгэл",
-    desc: "Брэндийн лого, хэвлэлийн эх бэлтгэл болон 3D интерьер дизайны төслүүдийг захиалагчийн хүсэлд нийцүүлэн гүйцэтгэдэг.",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Систем автоматжуулалтын хөгжүүлэгч",
-    desc: "n8n болон AI агентууд ашиглан бизнесийн механик үйлдлүүдийг автоматжуулж, ажлын бүтээмжийг нэмэгдүүлэх шийдлүүдийг боловсруулдаг.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ] as const;
 
